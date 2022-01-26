@@ -1,0 +1,253 @@
+.bodymiddle {
+    width: 100%;
+    height: 740px;
+    background-color: #007366;
+}
+
+.bodymiddlekontakt {
+    width: 100%;
+    height: 850px;
+    background-color: #007366;
+}
+
+.bodymiddleinfo{
+  width: 100%;
+  height: 800px;
+  background-color: #007366;
+  }
+
+.game {
+    width: 1000px;
+    position: relative;
+    top: 30px;
+    height: 600px;
+    margin: auto;
+    background-image: url("images/landscape_planet.jpg");
+    background-size: cover;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 40px;
+    color: white;
+}
+
+#character {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 375px;
+    background-image: url("images/alien.gif");
+    background-size: 120px;
+    background-repeat: no-repeat;
+}
+
+#character.version2 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 375px;
+    background-image: url("images/pirat.gif");
+    background-size: 120px;
+    background-repeat: no-repeat;
+}
+
+#startblockade {
+  width: 100%;
+  height: 630px;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    opacity: 0.6;
+    margin: auto;
+}
+
+#block {
+    width: 154.5px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    left: 470px;
+    background-image: url("images/rakete.png");
+    background-size: cover;
+    animation: block 1.33s infinite;
+}
+
+@keyframes block {
+    0% {
+        left: 850px;
+    }
+    100% {
+        left: -80px;
+    }
+}
+
+.jump-animation {
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0% {
+        top: 300px;
+    }
+    50% {
+        top: 150px;
+    }
+    75% {
+        top: 150px;
+    }
+    100% {
+        top: 300px;
+    }
+}
+
+#Logo {
+    width: 18vw;
+}
+
+header {
+    font-size: 3vw;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 100%;
+    font-family: inherit;
+    color: black;
+}
+
+a:link {
+  color: black;
+}a:visited {
+  color: black;}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.textfooter {
+    font-size: 1.5vw;
+}
+
+.row {
+    font-size: 3vw;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 100%;
+}
+
+#startbutton {
+    height: 70px;
+    width: 220px;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    z-index: 150;
+    background-color: #f0572b;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+
+.alienorpirat {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 23.7%;
+    color:white;
+    font-size: 25px;
+}
+
+
+.Seitentitel{
+    position:absolute;
+    width: 100%;
+    height: 20%;
+}
+
+.Bilder {
+    width: 100%;
+    height: 20vw;
+}
+
+
+.titel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: inherit;
+    font-weight: normal;
+}
+
+.textblock {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fliesstext {
+    width: 500px;
+}
+
+
+.rounded {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+}
+
+.bilder {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+#sendenbutton {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    background-color: #f0572b;
+    color: white;
+    border: none;
+    font-size: 15px;
+    left: 80%;
+    float: left;
+    position: absolute;
+}
+
+.kontaktfomular {
+    width: 500px;
+}
+
+
+.sendenbutton {
+    position: absolute;
+}
+
+.selfie {
+    height: 20%;
+}
+
+.selfiesonja {
+    max-width: 200px;
+    margin: 30px;
+}
+
+.selfiecheryl {
+    max-width: 200px;
+    margin: 30px;
+}
+
+.kontaktnachricht {
+    bottom: 10px;
+}
